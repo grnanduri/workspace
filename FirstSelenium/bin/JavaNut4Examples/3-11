@@ -1,0 +1,14 @@
+public java.util.Enumeration enumerate() {
+  // The anonymous class is defined as part of the return statement
+  return new java.util.Enumeration() { 
+    Linkable current;
+    { current = head; }  // Replace constructor with an instance initializer
+    public boolean hasMoreElements() {  return (current != null); }
+    public Object nextElement() {
+      if (current == null) throw new java.util.NoSuchElementException();
+      Object value = current;
+      current = current.getNext();
+      return value;
+    }
+  };  // Note the required semicolon: it terminates the return statement
+}

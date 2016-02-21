@@ -1,0 +1,13 @@
+import java.util.Arrays;
+ 
+public class Question {
+    public static void main(String[] args) {
+        String[] names =
+                 new String[]{"Fadia","Victoria","Alvin","Angela" , "Eathen" , "Pamela"} ;
+        Arrays.sort(names);
+        System.out.println("Names array after sorting");
+        for(String sortedName : names){
+            System.out.println(sortedName);   
+        }
+    }
+}

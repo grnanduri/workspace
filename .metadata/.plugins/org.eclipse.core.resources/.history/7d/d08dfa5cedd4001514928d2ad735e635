@@ -1,0 +1,17 @@
+package com.selenium;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class NewServiceEquipment {
+
+	public static void main(String[] args){
+		WebDriver driver = new FirefoxDriver();
+		driver.get("http://www.verizonwireless.com");
+		driver.manage().window().maximize();
+		driver.findElement(By.xpath(".//*[@id='pageWrapper']/div[2]/div/nav/ul/li[1]/div/a")).click();
+		
+		
+	}
+}

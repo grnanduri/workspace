@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="FirstSeleniumSuite" verbose="1" >
+  <test name="FirstSeleniumProgram" >
+    <classes>
+       <class name="com.selenium.NewServiceEquipment" />
+    </classes>
+  </test>
+ 
+  

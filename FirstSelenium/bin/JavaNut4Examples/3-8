@@ -1,0 +1,27 @@
+// A class that implements a stack as a linked list
+public class LinkedStack {
+  // This static member interface defines how objects are linked
+  public static interface Linkable {
+    public Linkable getNext();
+    public void setNext(Linkable node);
+  }
+
+  // The head of the list is a Linkable object
+  Linkable head;  
+
+  // Method bodies omitted
+  public void push(Linkable node) { ... } 
+  public Object pop() { ... } 
+}
+
+// This class implements the static member interface
+class LinkableInteger implements LinkedStack.Linkable {
+  // Here's the node's data and constructor
+  int i;
+  public LinkableInteger(int i) { this.i = i; }
+
+  // Here are the data and methods required to implement the interface
+  LinkedStack.Linkable next;
+  public LinkedStack.Linkable getNext() { return next; }
+  public void setNext(LinkedStack.Linkable node) { next = node; }
+}

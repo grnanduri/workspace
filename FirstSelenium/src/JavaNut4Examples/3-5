@@ -1,0 +1,24 @@
+public abstract class Shape {
+  public abstract double area();            // Abstract methods: note
+  public abstract double circumference();   // semicolon instead of body. 
+}
+
+class Circle extends Shape {
+  public static final double PI = 3.14159265358979323846;
+  protected double r;                              // Instance data
+  public Circle(double r) { this.r = r; }          // Constructor
+  public double getRadius() { return r; }          // Accessor
+  public double area() { return PI*r*r; }          // Implementations of
+  public double circumference() { return 2*PI*r; } // abstract methods. 
+}
+
+class Rectangle extends Shape {
+  protected double w, h;                               // Instance data
+  public Rectangle(double w, double h) {               // Constructor
+    this.w = w;  this.h = h; 
+  }
+  public double getWidth() { return w; }               // Accessor method
+  public double getHeight() { return h; }              // Another accessor
+  public double area() { return w*h; }                 // Implementations of
+  public double circumference() { return 2*(w + h); }  // abstract methods.
+}

@@ -1,0 +1,14 @@
+package com.selenium;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class NewServiceEquipment {
+
+	public static void main(String[] args){
+		WebDriver driver = new FirefoxDriver();
+		driver.get("www.verizonwireless.com");
+		driver.manage().window().maximize();
+		
+	}
+}

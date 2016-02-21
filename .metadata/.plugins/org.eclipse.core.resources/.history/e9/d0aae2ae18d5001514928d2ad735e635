@@ -1,0 +1,15 @@
+package com.selenium;
+
+public class Question {
+
+	public static void JavaHungry(Exception e){
+		System.out.println("Exception");
+	}
+	public static void JavaHungry(){
+		System.out.println("object");
+	}
+	
+	public static void main (String[] args){
+		JavaHungry(null);
+	}
+}

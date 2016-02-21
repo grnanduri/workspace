@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/Users/ganga/Documents/Rajesh/Hadoop/Notes/Programs/DeptFinder.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ganga/Documents/Rajesh/Hadoop/Notes/Programs/EvaluateRecommender.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ganga/Documents/Rajesh/Hadoop/Notes/Programs/HiveUDF.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ganga/Documents/Rajesh/Hadoop/Notes/Programs/PigUDF.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ganga/Documents/Rajesh/Hadoop/Notes/Programs/SqlAvg.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ganga/Documents/Rajesh/Hadoop/Notes/Programs/SqlCount.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ganga/Documents/Rajesh/Hadoop/Notes/Programs/SqlMaxSal.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ganga/Documents/Rajesh/Hadoop/Notes/Programs/SqlSum.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ganga/Documents/Rajesh/Hadoop/Notes/Programs/WordCount.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ganga/Documents/Rajesh/Hadoop/Notes/Programs/WordCountPartitioner.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

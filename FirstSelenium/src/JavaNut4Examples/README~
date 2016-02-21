@@ -1,0 +1,23 @@
+This directory contains the examples from the Third Edition of the book
+"Java in a Nutshell" by David Flanagan.  They were written by David
+Flanagan, and are Copyright (c) 1999 by O'Reilly & Associates.  You may
+distribute these examples in source-code form for non-commercial
+purposes only.  You may study, modify, and use these examples for any
+purpose. Note, however, that these examples are provided "as is", and
+come with NO WARRANTY of any kind either expressed or implied.
+
+The filenames identify each example by its chapter number and example
+number.  Example 1-1 is a complete Java program, and is also provided in
+a file named Factorial.java.  As explained in Chapter 1, you can compile
+and run this program with commands like these:
+
+	 javac Factorial.java
+	 java Factorial 4
+
+None of the remaining examples have main() methods, so they are not
+complete programs, and can not be run by themselves.  Many of these
+examples do define Java classes, and, if appropriately renamed, they can
+be compiled, and used by other Java classes.  (Although none of them are
+particularly useful!).  Other examples are simply code fragments, which
+can be incorporated into other Java code, but which cannot be compiled
+as is.
